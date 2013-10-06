@@ -42,7 +42,7 @@ int main() {
             faces.push(std::make_pair(CGAL::to_double(squared_distance(circumcenter, it->vertex(0)->point())), it));
         }
     }
-    // Print the faces. The largest circle comes first.
+    // Print the circle centers and radii. The largest circle comes first.
     while (!faces.empty()) {
         std::cout << dt.dual(faces.top().second) << std::endl;
         std::cout << sqrt(faces.top().first) << std::endl;
