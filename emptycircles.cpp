@@ -1,3 +1,6 @@
+// CprE 491 May14-31 optimal prototype
+// Author: Michael Ore
+
 #include <fstream>
 
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
